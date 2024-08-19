@@ -16,27 +16,10 @@ function App() {
 
   const toDate = () => {
     const months = [
-      "January",
-      "February",
-      "March",
-      "April",
-      "May",
-      "June",
-      "July",
-      "August",
-      "September",
-      "October",
-      "November",
-      "December"
+      "January","February","March","April","May","June","July","August","September","October","November","December"
     ];
     const days = [
-      "Sunday",
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday",
-      "Saturday"
+      "Sunday","Monday","Tuesday","Wednesday", "Thursday","Friday","Saturday"
     ];
 
     const currentDate = new Date();
@@ -85,7 +68,7 @@ function App() {
   return (
     <div className="App">
 
-      {/* SearchEngine component */}
+      {}
       <SearchEngine query={query} setQuery={setQuery} search={search} />
 
       {weather.loading && (
@@ -109,7 +92,6 @@ function App() {
       )}
 
       {weather && weather.data && weather.data.condition && (
-        // Forecast component
         <Forecast weather={weather} toDate={toDate} />
       )}
     </div>

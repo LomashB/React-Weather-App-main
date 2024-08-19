@@ -35,7 +35,7 @@ body {
   width: 70%;
   height: 40px;
   border: none;
-  border-radius: 5px; /* Updated */
+  border-radius: 5px; 
   padding: 2px 15px;
   font-size: 16px;
   outline: none;
@@ -50,11 +50,11 @@ body {
 }
 
 .SearchEngine button {
-  width: 78px; /* Updated */
-  height: 44px; /* Updated */
+  width: 78px; 
+  height: 44px; 
   border: none;
-  border-radius: 9%; /* Updated */
-  background-color: #84cef5; /* Updated */
+  border-radius: 9%; 
+  background-color: #84cef5; 
   color: #fff;
   font-size: 20px;
   outline: none;
