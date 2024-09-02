@@ -27,6 +27,7 @@ function App() {
       }`;
     return date;
   };
+
   //new search function
   const search = async (event) => {
     event.preventDefault();
@@ -75,7 +76,7 @@ function App() {
         <>
           <br />
           <br />
-          <h4>Searching..</h4>
+          <h4>Searching...</h4>
         </>
       )}
 
